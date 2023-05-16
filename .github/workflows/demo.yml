@@ -8,6 +8,9 @@ jobs:
         run: echo -e "Hello GH Actions!"
       - name: Print new lines
         run:
+          echo $'\n'
           echo -e $"$0"
+          echo $'\n'
           echo -e "Line 2"
+          echo $'\n'
           echo -e "Hello world"
