@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print to console
-        run: -e "echo Hello GH Actions!"
+        run: echo -e "Hello GH Actions!"
       - name: Print new lines
         run:
           echo -e $"$0"
